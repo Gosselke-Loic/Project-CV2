@@ -1,0 +1,22 @@
+@use "sass:math";
+
+/* Style pour les titre*/
+.header {
+    
+    .header__section1 {
+        display: flex;
+        justify-content: center;
+
+        .header__section1__img {
+            margin-top: $unit;
+            width: 11%;
+            border-radius: 50%;
+        }
+    }
+
+    .header__section2 {
+        color: white;
+        text-align: center;
+        margin-bottom: $unit * 2;
+    }
+}

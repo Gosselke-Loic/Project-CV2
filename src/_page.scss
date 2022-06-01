@@ -1,0 +1,71 @@
+@use "sass:math";
+
+/* Diviser les section par grid (gauche et droite) et styles*/
+.section1 {
+    display: grid;
+    grid-template-columns: 45% 30%;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: $unit $unit*3;
+
+    @include anchorStyle(white);
+
+    .section1--li{
+        list-style: none;
+    }
+
+    .section1__div1a {
+        @include boxShadow1(1em, 2em);
+        margin-bottom: $unit;
+
+        &:hover {
+            @include boxShadow2();
+        }
+    }
+
+    .section1__div1b{
+        @include boxShadow1(3em, 2em);
+        max-height: 85%;
+    
+        &:hover {
+            @include boxShadow2(95%);
+        }
+    }
+
+    .section1__div2a {
+        @include boxShadow1(1em, 2em);
+        margin-bottom: $unit * 2;
+        max-width: 90%;
+    
+        &:hover {
+            @include boxShadow2(95%);
+        }
+    }
+
+    .section1__div2b {
+        @include boxShadow1(1em, 2em);
+        margin-top: -$unit*2;
+        max-height: 95%;
+    
+        &:hover {
+            @include boxShadow2();
+        }
+    }
+    
+    .section1__div3a {
+        @include boxShadow1(1em, 2em);
+        max-width: 80%;
+    
+        &:hover {
+            @include boxShadow2(90%)
+        }
+    }
+
+    .section1__div3b {
+        @include boxShadow1(1em, 2em);
+    
+        &:hover {
+            @include boxShadow2();
+        }
+    }
+}

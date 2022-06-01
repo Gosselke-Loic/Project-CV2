@@ -5,26 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Lien avec Styles.css-->
-    <link rel="stylesheet" href="Styles.css">
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
+    <link rel="stylesheet" href="css/styles.css">
     <title>Curriculum Vitae</title>
 </head>
 
 <body>
 
-    <header id="header">
+    <header class="header">
 
-        <section id="header1">
-            <img id="img" src="/pexels-simon-robben-614810.jpg" alt="Foto Personnel">
+        <section class="header__section1">
+            <img class="header__section1__img" src="pexels-simon-robben-614810.jpg" alt="Foto face">
         </section>
 
-        <section id="header2">
+        <section class="header__section2">
             <h1>Loic Gosselke</h1>
             <ul>
                 <li> <span>Adresse</span>: Avenues des Communes Reunies, 16</li>
@@ -34,16 +27,16 @@
         </section>
     </header>
 
-    <section id="section1">
+    <section class="section1">
 
         <!--Experience Professionel, deux (div) pour display:Grid (columns) -->
-        <div id="div1a">
-            <h2><span class="h2">Expérience Professionel</span></h2>
+        <div class="section1__div1a">
+            <h2>Expérience Professionel</h2>
 
             <ul>
                 <li><span> Alquilerparatodos, Agent immobilier</span></li>
-                <li class="li">2013-2015, Espagne.</li>
-                <li class="li">
+                <li class="section1--li">2013-2015, Espagne.</li>
+                <li class="section1--li">
                     Agent immobilier orienté vers la location de courte ou longue durée, mes
                     fonctions étaient le contact avec les clients, la présentation et la gestion des
                     actifs ainsi que la signature des contrats d'allocation.
@@ -51,16 +44,16 @@
             </ul>
             <ul>
                 <li><a href="https://www.oliviaslacala.com/es/"> <span>Olivia’s, Barman/Barback.</span></a></li>
-                <li class="li">2018, Espagne.</li>
-                <li class="li">
+                <li class="section1--li">2018, Espagne.</li>
+                <li class="section1--li">
                     Ma tâche principale était la préparation des bars avant les services, assurer la
                     logistique des bars pendant les services et la gestion du stock pour les bars.
                 </li>
             </ul>
             <ul>
                 <li> <a href="https://fostershollywood.es/"><span>Foster’s Hollywood, Cuisinier.</span></a></li>
-                <li class="li">2019, Espagne.</li>
-                <li class="li">
+                <li class="section1--li">2019, Espagne.</li>
+                <li class="section1--li">
                     Mes tâches consistaient à préparer le plan de travail, à préparer les repas et à
                     nettoyer le plan de travail après les services.
                 </li>
@@ -68,13 +61,13 @@
         </div>
         
         <!--Expérience Extra-Professionel, deux (div) pour display:Grid (columns)-->
-        <div id="div1b">
-            <h2><span class="h2">Expérience Extra-Professionel</span></h2>
+        <div class="section1__div1b">
+            <h2>Expérience Extra-Professionel</h2>
 
-            <ul id="ulextra">
+            <ul>
                 <li> <span>Aide soignant</span></li>
-                <li class="li">2015-2017, Genève.</li>
-                <li class="li" id="soin">
+                <li class="section1--li">2015-2017, Genève.</li>
+                <li class="section1--li" id="soin">
                     Prendre soin de mon grand-père sous un horaire 24/7, cela impliquait toutes
                     les tâches domestiques et financières, ainsi que l'hygiène et sa santé.
                 </li>
@@ -85,17 +78,17 @@
         </div>
     
         <!--Formation, Langues et Informatique, deux (div) pour display:Grid (columns)-->
-        <div id="div2a">
-            <h2><span class="h2">Formation</span></h2>
+        <div class="section1__div2a">
+            <h2>Formation</h2>
 
             <ul>
                 <li>
                     <a href="https://www.iestorrealmenara.es/"><span>I.E.S Torre Almenara</span></a>, éducation secondaire.
                 </li>
-                <li class="li">
+                <li class="section1--li">
                     2005-2010, Espagne.
                 </li>
-                <li class="li">
+                <li class="section1--li">
                     Études réalisées avec succès dans la branche technologique .
                 </li>
             </ul>
@@ -103,18 +96,18 @@
                 <li>
                     <span>I.E.S La Cala de Mijas</span>, Baccalauréat.
                 </li>
-                <li class="li">
+                <li class="section1--li">
                     2011-2013, Espagne.
                 </li>
-                <li class="li">
+                <li class="section1--li">
                     Deux ans d'études, un an complété avec succès (branche technologique).
                 </li>
             </ul>
         </div>
 
-        <div id="div2b">
+        <div class="section1__div2b">
             <h2>
-                <span class="h2">Langues/Informatique (IT)</span>
+                Langues/Informatique (IT)
             </h2>
 
             <ul>
@@ -130,9 +123,9 @@
         </div>
 
         <!--Soft skills et Loisirs,  deux (div) pour Display:grid (columns)-->
-        <div id="div3a">
+        <div class="section1__div3a">
             <h2>
-                <span class="h2"> Soft Skills</span>
+                Soft Skills
             </h2>
 
             <ul>
@@ -151,9 +144,9 @@
             </ul>
         </div>
 
-        <div id="div3b">
+        <div class="section1__div3b">
             <h2>
-                <span class="h2">Loisirs</span>
+                Loisirs
             </h2>
 
             <ul>
@@ -173,10 +166,11 @@
         </div>
     </section>
 
-    <footer id="footer">
+    <footer class="footer">
         <!--footer pour le contact avec "mailto:"-->
-        <h3 id="h3footer">
-            <a id="mailto" href="emailto:gosselkeloic@gmail.com">Contact Email</a>
+        <h3 class="footer__h3">
+            <a class="footer__h3__mailto" href="emailto:gosselkeloic@gmail.com">Contact Email</a>
+        </h3>    
     </footer>
 
 </body>
